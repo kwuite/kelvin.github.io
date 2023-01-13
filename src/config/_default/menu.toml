@@ -1,0 +1,31 @@
+[[social]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/kwuite/kelvin.id"
+
+[social.params]
+icon = "brand-github"
+
+[[social]]
+identifier = "twitter"
+name = "Twitter"
+url = "https://twitter.com/kelvin_dot_id"
+
+[social.params]
+icon = "brand-twitter"
+
+[[social]]
+identifier = "linkedin"
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/kelvin-wuite-77633122/"
+
+[social.params]
+icon = "brand-linkedin"
+
+[[social]]
+identifier = "reddit"
+name = "Reddit"
+url = "https://www.reddit.com/r/kelvindotid/"
+
+[social.params]
+icon = "brand-reddit"

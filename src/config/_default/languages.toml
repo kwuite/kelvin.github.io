@@ -1,0 +1,13 @@
+# Uncomment this file to enable multilanguage site support
+
+[en]
+languageName = "English"
+languagedirection = "ltr"
+title = "Kelvin.iD"
+weight = 1
+
+[nl]
+languageName = "Nederlands"
+languagedirection = "ltr"
+title = "Kelvin.iD"
+weight = 2

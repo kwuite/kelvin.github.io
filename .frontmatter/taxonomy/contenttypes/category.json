@@ -1,0 +1,38 @@
+{
+    "$schema": "https://frontmatter.codes/config/content.pagefolders.schema.json",
+    "name": "categories",
+    "pageBundle": false,
+    "previewPath": null,
+    "fields": [
+      {
+        "title": "Title",
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "title": "Description",
+        "name": "description",
+        "type": "string"
+      },
+      {
+        "title": "Image",
+        "name": "image",
+        "type": "image"
+      },
+      {
+        "title": "Slug",
+        "name": "slug",
+        "type": "string"
+      },
+      {
+        "title": "Style Background",
+        "name": "style.background",
+        "type": "string"
+      },
+      {
+        "title": "Style Color",
+        "name": "style.color",
+        "type": "string"
+      }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "$schema": "https://frontmatter.codes/config/content.pagefolders.schema.json",
+    "title": "Post",
+    "path": "[[workspace]]/src/content/post",
+    "contentTypes": ["post"]
+}
