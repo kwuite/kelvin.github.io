@@ -1,0 +1,55 @@
+<style>
+	/// Overwrite CSS variable
+    :root {
+        /* More vibrant background colors */
+        --body-background: #e3e3e3;
+    
+        /* More dynamic accent colors */
+        --accent-color: #ad3140;
+        --accent-color-darker: #ad3140;
+        --accent-color-text: #f1faee;
+    
+        /* Text color that complements the new background */
+        --body-text-color: #1d3557;
+    
+        /* Update card styles for a fresh look */
+        --card-background: #f1faee;
+        --card-background-selected: #2a9d8f;
+        --card-text-color-main: #264653;
+        --card-text-color-secondary: #2a9d8f;
+        --card-text-color-tertiary: #e76f51;
+    
+        /* More modern shadows */
+        --shadow-l1: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.08);
+        --shadow-l2: 0px 8px 14px rgba(0, 0, 0, 0.08), 0px 3px 6px rgba(0, 0, 0, 0.08);
+        --shadow-l3: 0px 12px 18px rgba(0, 0, 0, 0.1), 0px 5px 8px rgba(0, 0, 0, 0.08);
+    
+        /* More vibrant tag backgrounds */
+        --tag-backgrounds: #8fd5a6, #f8b400, #0582ca, #ff6b6b, #9a8c98;
+    
+        /* Update Article content style for better readability */
+        --article-font-family: 'Georgia', serif;
+        --article-font-size: 1.8rem;
+        --article-line-height: 1.8;
+        --blockquote-background-color: rgb(233 236 239);
+    }
+
+    /* Add changes for dark scheme as well */
+    [data-scheme="dark"] {
+        --body-background: #121212;
+        --accent-color: #bb86fc;
+        --accent-color-darker: #6200ee;
+        --accent-color-text: #03dac6;
+        --card-background: #1f1f1f;
+        --card-text-color-main: #ffffff;
+        --card-text-color-secondary: #adadad;
+        --card-text-color-tertiary: #828282;
+        --blockquote-background-color: rgb(30 30 30);
+    }
+    /// site-avatar
+    /* Reduce focus on emoji by removing the big background */
+    .sidebar header .site-avatar .emoji  {
+        background-color: unset;
+        box-shadow: unset;
+    }
+</style>

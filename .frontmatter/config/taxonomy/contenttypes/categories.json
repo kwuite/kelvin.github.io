@@ -1,5 +1,5 @@
 {
-    "$schema": "https://frontmatter.codes/config/content.pagefolders.schema.json",
+    "$schema": "https://frontmatter.codes/config/taxonomy.contenttypes.schema.json",
     "name": "categories",
     "pageBundle": false,
     "previewPath": null,

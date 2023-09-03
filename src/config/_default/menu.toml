@@ -29,3 +29,11 @@ url = "https://www.reddit.com/r/kelvindotid/"
 
 [social.params]
 icon = "brand-reddit"
+
+[[social]]
+identifier = "email"
+name = "Email"
+url = "mailto:more@kelvin.id"
+
+[social.params]
+icon = "email"
