@@ -1,38 +1,51 @@
 {
-    "$schema": "https://frontmatter.codes/config/taxonomy.contenttypes.schema.json",
-    "name": "categories",
-    "pageBundle": false,
-    "previewPath": null,
-    "fields": [
-      {
-        "title": "Title",
-        "name": "title",
-        "type": "string"
-      },
-      {
-        "title": "Description",
-        "name": "description",
-        "type": "string"
-      },
-      {
-        "title": "Image",
-        "name": "image",
-        "type": "image"
-      },
-      {
-        "title": "Slug",
-        "name": "slug",
-        "type": "string"
-      },
-      {
-        "title": "Style Background",
-        "name": "style.background",
-        "type": "string"
-      },
-      {
-        "title": "Style Color",
-        "name": "style.color",
-        "type": "string"
-      }
-    ]
+  "$schema": "https://frontmatter.codes/config/taxonomy.contenttypes.schema.json",
+  "name": "categories",
+  "pageBundle": false,
+  "previewPath": "/categories/",
+  "fields": [
+    {
+      "title": "Title",
+      "name": "title",
+      "type": "string"
+    },
+    {
+      "title": "Description",
+      "name": "description",
+      "type": "string"
+    },
+    {
+      "title": "Image",
+      "name": "image",
+      "type": "image"
+    },
+    {
+      "title": "Slug",
+      "name": "slug",
+      "type": "string",
+      "default": "/categories/{{ .title | lower | urlize }}/"
+    },
+    {
+      "title": "style",
+      "name": "style",
+      "type": "fields",
+      "fields": [
+        {
+          "title": "background",
+          "name": "background",
+          "type": "string"
+        },
+        {
+          "title": "color",
+          "name": "color",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "title": "type",
+      "name": "type",
+      "type": "string"
+    }
+  ]
 }

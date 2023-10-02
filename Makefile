@@ -40,15 +40,15 @@ endif
 confirm:
 	@bash scripts/bash/confirmation.sh
 
-exit_on:
+exit-on:
 	@bash scripts/bash/exit_on_non_development.sh
 
 # Local environment
 
-install_docker: confirm
+install-docker: confirm
 	@bash scripts/bash/install_docker.sh
 
-install_monitor: confirm
+install-monitor: confirm
 	@bash scripts/bash/install_lazydocker.sh
 
 # Docker
@@ -81,35 +81,35 @@ monitor:
 
 # Hugo CLI
 
-hugo_deps:
+hugo-deps:
 	docker exec -it hugo sh -c "hugo env -v"
 
 # Asset management / CDN
 
-sync_cdn:
+sync-cdn:
 	ASSETS=${ASSETS} bash scripts/sync_imagekit.sh
 
 # Submodule
 
-theme_init:
+theme-init:
 	git submodule init --re
 
-theme_update:
+theme-update:
 	git submodule update --remote --init --recursive
 
 # Support pages
 
-help_markdown:
+help-markdown:
 	xdg-open https://gohugo.io/content-management/front-matter/
 
-help_images:
+help-images:
 	xdg-open https://docs.imagekit.io/
 
-help_language:
+help-language:
 	xdg-open https://gohugo.io/functions/i18n/
 
-help_theme:
+help-theme:
 	xdg-open https://stack.jimmycai.com/
 
-page_category:
+page-category:
 	xdg-open http://localhost:1313/categories/

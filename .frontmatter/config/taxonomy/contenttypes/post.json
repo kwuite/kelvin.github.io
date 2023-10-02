@@ -1,45 +1,102 @@
 {
-    "$schema": "https://frontmatter.codes/config/taxonomy.contenttypes.schema.json",
-    "name": "post",
-    "pageBundle": false,
-    "previewPath": null,
-    "fields": [
-        {
-          "title": "Title",
-          "name": "title",
-          "type": "string"
-        },
-        {
-          "title": "Description",
-          "name": "description",
-          "type": "string"
-        },
-        {
-          "title": "Publishing date",
-          "name": "date",
-          "type": "datetime",
-          "default": "{{now}}",
-          "isPublishDate": true
-        },
-        {
-          "title": "Content preview",
-          "name": "preview",
-          "type": "image"
-        },
-        {
-          "title": "Is in draft",
-          "name": "draft",
-          "type": "draft"
-        },
-        {
-          "title": "Tags",
-          "name": "tags",
-          "type": "tags"
-        },
-        {
-          "title": "Categories",
-          "name": "categories",
-          "type": "categories"
-        }
-    ]
+  "$schema": "https://frontmatter.codes/config/taxonomy.contenttypes.schema.json",
+  "name": "post",
+  "pageBundle": false,
+  "previewPath": "/post/",
+  "fields": [
+    {
+      "title": "Title",
+      "name": "title",
+      "type": "string",
+      "default": "Untitled Post"
+    },
+    {
+      "title": "Description",
+      "name": "description",
+      "type": "string",
+      "default": "No description provided."
+    },
+    {
+      "title": "Slug",
+      "name": "slug",
+      "type": "string",
+      "default": "/post/{{ .title | lower | urlize }}/"
+    },
+    {
+      "title": "Publishing date",
+      "name": "date",
+      "type": "datetime",
+      "default": "{{now}}",
+      "isPublishDate": true
+    },
+    {
+      "title": "Featured Image",
+      "name": "image",
+      "type": "image",
+      "default": "default.jpg"
+    },
+    {
+      "title": "Comments",
+      "name": "comments",
+      "type": "bool",
+      "default": true
+    },
+    {
+      "title": "License",
+      "name": "license",
+      "type": "string",
+      "default": "MIT"
+    },
+    {
+      "title": "Math Rendering",
+      "name": "math",
+      "type": "bool",
+      "default": false
+    },
+    {
+      "title": "Table of Contents",
+      "name": "toc",
+      "type": "bool",
+      "default": true
+    },
+    {
+      "title": "Additional Styles",
+      "name": "style",
+      "type": "map",
+      "default": {
+        "background": "#FFFFFF",
+        "color": "#000000"
+      }
+    },
+    {
+      "title": "Keywords",
+      "name": "keywords",
+      "type": "array",
+      "default": [
+        "blog",
+        "post"
+      ]
+    },
+    {
+      "title": "Reading Time",
+      "name": "readingTime",
+      "type": "bool",
+      "default": true
+    },
+    {
+      "title": "categories",
+      "name": "categories",
+      "type": "categories"
+    },
+    {
+      "title": "tags",
+      "name": "tags",
+      "type": "tags"
+    },
+    {
+      "title": "type",
+      "name": "type",
+      "type": "string"
+    }
+  ]
 }

@@ -2,5 +2,5 @@
     "$schema": "https://frontmatter.codes/config/content.pagefolders.schema.json",
     "title": "Categories",
     "path": "[[workspace]]/src/content/categories",
-    "contentTypes": ["category"]
+    "contentTypes": ["categories"]
 }

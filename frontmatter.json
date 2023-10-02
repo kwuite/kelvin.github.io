@@ -1,57 +1,11 @@
 {
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
   "frontMatter.framework.id": "hugo",
+  "frontMatter.preview.host": "http://localhost:1313",
   "frontMatter.framework.startCommand": "make up",
   "frontMatter.framework.stopCommand": "make down",
   "frontMatter.content.publicFolder": "[[workspace]]/src/static",
-  "frontMatter.preview.host": "http://localhost:1313",
   "frontMatter.content.configFolder": "[[workspace]]/src/config/_default",
   "frontMatter.content.themeFolder": "[[workspace]]/src/themes/hugo-theme-stack",
-  "frontMatter.content.assetFolder": "[[workspace]]/src/assets",
-  "frontMatter.taxonomy.contentTypes": [
-    {
-      "name": "default",
-      "pageBundle": false,
-      "previewPath": null,
-      "fields": [
-        {
-          "title": "Title",
-          "name": "title",
-          "type": "string"
-        },
-        {
-          "title": "Description",
-          "name": "description",
-          "type": "string"
-        },
-        {
-          "title": "Publishing date",
-          "name": "date",
-          "type": "datetime",
-          "default": "{{now}}",
-          "isPublishDate": true
-        },
-        {
-          "title": "Content preview",
-          "name": "preview",
-          "type": "image"
-        },
-        {
-          "title": "Is in draft",
-          "name": "draft",
-          "type": "draft"
-        },
-        {
-          "title": "Tags",
-          "name": "tags",
-          "type": "tags"
-        },
-        {
-          "title": "Categories",
-          "name": "categories",
-          "type": "categories"
-        }
-      ]
-    }
-  ]
+  "frontMatter.content.assetFolder": "[[workspace]]/src/assets"
 }
