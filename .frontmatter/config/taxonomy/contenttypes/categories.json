@@ -20,12 +20,6 @@
       "type": "image"
     },
     {
-      "title": "Slug",
-      "name": "slug",
-      "type": "string",
-      "default": "/categories/{{ .title | lower | urlize }}/"
-    },
-    {
       "title": "style",
       "name": "style",
       "type": "fields",

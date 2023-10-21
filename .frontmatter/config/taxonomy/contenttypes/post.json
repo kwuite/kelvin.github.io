@@ -17,12 +17,6 @@
       "default": "No description provided."
     },
     {
-      "title": "Slug",
-      "name": "slug",
-      "type": "string",
-      "default": "/post/{{ .title | lower | urlize }}/"
-    },
-    {
       "title": "Publishing date",
       "name": "date",
       "type": "datetime",
