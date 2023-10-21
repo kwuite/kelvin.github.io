@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Privacy-Focused on Kelvin.iD</title><link>https://kelvin.id/tags/privacy-focused/</link><description>Recent content in Privacy-Focused on Kelvin.iD</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 03 Dec 2022 23:11:00 +0000</lastBuildDate><atom:link href="https://kelvin.id/tags/privacy-focused/index.xml" rel="self" type="application/rss+xml"/><item><title>Optimizing development: The Open Source Way</title><link>https://kelvin.id/post/leveraging-open-source-tools-for-business-efficiency/</link><pubDate>Sat, 03 Dec 2022 23:11:00 +0000</pubDate><guid>https://kelvin.id/post/leveraging-open-source-tools-for-business-efficiency/</guid><description>&lt;img src="https://ik.imagekit.io/kelvinid/assets/blog/harnessing_the_power_of_open_source_kelvin-wuite_kelvin.id.png?updatedAt=1697907399392" alt="Featured image of post Optimizing development: The Open Source Way" />&lt;p>Open-source tools are empowering businesses worldwide by offering robust, cost-effective solutions for software development, process automation, and collaboration. In this article, I am speed running you through key open-source tools that small to medium-sized businesses can leverage for operational efficiency and growth.&lt;/p>
+&lt;h2 id="collaboration-during-development">Collaboration during development&lt;/h2>
+&lt;p>The journey from identifying business needs to software development and automation begins with clear software requirements. Take a look at &lt;a class="link" href="https://mattermost.com/" target="_blank" rel="noopener"
+>Mattermost&lt;/a> for stable project communication using a highly adaptable collaboration platform designed specifically for top-performing technical and operational teams. The company behind Mattermost dedicated themselves to &lt;a class="link" href="https://mattermost.com/open-source/" target="_blank" rel="noopener"
+>remain open source since 2011&lt;/a> and offer an amazing alternative to Slack, Teams or the Atlassian suite whilst your company benefits from a secure, data privacy oriented, self-hosted solution with no loss in interoperability.&lt;/p>
+&lt;p>Stay clear of a vendor lock-in, but maintain connectivity and have the flexibility to continuously expand through plugins, including options like GitLab, PagerDuty, Jenkins, Prometheus, and Grafana.&lt;/p>
+&lt;p>After you have setup your self-hosted Mattermost edition, consider hosting your own &lt;a class="link" href="https://about.gitlab.com/install/" target="_blank" rel="noopener"
+>Gitlab&lt;/a>, which promotes collaboration and meticulous change tracking of your code.&lt;/p>
+&lt;h2 id="development-studio--operating-system">Development studio &amp;amp; operating system&lt;/h2>
+&lt;p>Although I&amp;rsquo;m a certified Microsoft technician, I choose the Ubuntu operating system for software development. Ubuntu&amp;rsquo;s seamless integration between the GUI and terminal provides speed and versatility. Plus, with native Docker support – unlike in Windows/WSL (Virtual/Layered) – it simplifies development, packaging, and release cycles.&lt;/p>
+&lt;p>For the integrated development environment, I endorse Microsoft&amp;rsquo;s &lt;a class="link" href="https://code.visualstudio.com/" target="_blank" rel="noopener"
+>Visual Studio Code&lt;/a>. It&amp;rsquo;s lightweight, offers a plethora of add-ons, and boasts an array of configurable settings. Companies prioritizing security can easily &lt;a class="link" href="https://code.visualstudio.com/docs/getstarted/telemetry" target="_blank" rel="noopener"
+>disable telemetry&lt;/a> and manage configurations across the organization.&lt;/p>
+&lt;h2 id="web-visual-and-optical-process-automation">Web, visual and optical process automation&lt;/h2>
+&lt;p>Software-driven automation can revolutionize numerous company operations, from product creation to customer care. One compelling reason for automation is to minimize human errors in repetitive tasks.&lt;/p>
+&lt;p>For such endeavors, consider the Robotic Process Automation system, &lt;a class="link" href="https://github.com/aisingapore/TagUI" target="_blank" rel="noopener"
+>TagUI&lt;/a>. Its user-friendly language allows for efficient automation across browsers, desktops, and command lines. Impressively, TagUI supports 22 languages and boasts 13 supplementary projects on GitHub. To utilize the power of TagUI as a Python developer, I would recommend &lt;a class="link" href="https://github.com/tebelorg/RPA-Python" target="_blank" rel="noopener"
+>RPA-Python&lt;/a> for web, visual, and OCR automation.&lt;/p>
+&lt;p>Additionally, TagUI&amp;rsquo;s commitment to enterprise-grade security is commendable. It operates independently of cloud services and doesn&amp;rsquo;t retain user data, rendering PCI-DSS, HIPAA, and SOX certifications irrelevant.&lt;/p>
+&lt;h2 id="continuous-integration-and-delivery-cicd">Continuous integration and delivery (CI/CD)&lt;/h2>
+&lt;p>CI/CD practices ensure that software code is continuously validated for safety, adherence to standards, and fulfillment of specifications. Tools like the open-source &lt;a class="link" href="https://www.jenkins.io/" target="_blank" rel="noopener"
+>Jenkins&lt;/a> play a pivotal role in this by facilitating automated testing and deployment.&lt;/p>
+&lt;h3 id="web-development-and-quality-assurance">Web development and quality assurance&lt;/h3>
+&lt;p>For browser-centric software developed to run publicly in any browser, deployed cross-platform via Cordova, or even developed with &lt;a class="link" href="https://flutter.dev/" target="_blank" rel="noopener"
+>Flutter&lt;/a>, I recommend &lt;a class="link" href="https://github.com/cypress-io/cypress" target="_blank" rel="noopener"
+>Cypress&lt;/a>. With Cypress, you can effortlessly create tests for your modern web applications, visually debug them, and seamlessly integrate them into your continuous integration builds. These builds can be executed on Gitlab and reported back to your Mattermost project management tool via Jenkins.&lt;/p>
+&lt;h3 id="performance-and-scalability">Performance and scalability&lt;/h3>
+&lt;p>Load testing tools, such as &lt;a class="link" href="https://k6.io/open-source/" target="_blank" rel="noopener"
+>K6.io&lt;/a>, provide valuable insights for building and designing robust, high-performing systems that can be scaled according to business needs. These tools are essential for both backend and front-end engineers, as well as site reliability experts, as they help prevent regressions and ensure compliance with SLAs.&lt;/p>
+&lt;h2 id="software-deployment--distribution">Software deployment &amp;amp; distribution&lt;/h2>
+&lt;p>I typically code within a container and launch services like &lt;a class="link" href="https://www.postgresql.org/" target="_blank" rel="noopener"
+>PostgreSQL&lt;/a> through &lt;a class="link" href="https://docs.docker.com/compose/" target="_blank" rel="noopener"
+>Docker Compose&lt;/a>. I manage orchestration with gnu/make or &lt;a class="link" href="https://github.com/casey/just" target="_blank" rel="noopener"
+>Just&lt;/a>, and for added security or commercial versions, compile my code into a binary. Docker Compose&amp;rsquo;s compatibility with &lt;a class="link" href="https://docs.docker.com/engine/swarm/" target="_blank" rel="noopener"
+>Docker Swarm&lt;/a> simplifies scaling, and when needed, I can transition to Kubernetes.&lt;/p>
+&lt;h3 id="containers-for-consistency-and-portability">Containers for consistency and portability&lt;/h3>
+&lt;p>After validation on a CI/CD server, I recommend software to be containerized for consistency and portability. &lt;a class="link" href="https://www.docker.com/community/open-source/" target="_blank" rel="noopener"
+>Docker&lt;/a> will enable your business to package applications and dependencies into deployable containers, minimizing compatibility issues and facilitating scalability. These containers, stored on a &lt;a class="link" href="https://docs.docker.com/registry/" target="_blank" rel="noopener"
+>Docker registry&lt;/a>, can also be analyzed for security at the operational server level.&lt;/p>
+&lt;h3 id="binary-distributions-for-security--dependency-reduction">Binary distributions for security &amp;amp; dependency reduction&lt;/h3>
+&lt;p>For enhanced binary distribution, reduced dependency requirements, and added protection of your source code, consider using tools like &lt;a class="link" href="https://nuitka.net/index.html#what-is-nuitka" target="_blank" rel="noopener"
+>Nuitka&lt;/a> for Python and &lt;a class="link" href="https://github.com/vercel/pkg" target="_blank" rel="noopener"
+>PKG&lt;/a> for Node.js. These tools compile scripts into standalone binaries, which can improve performance and make it harder for unauthorized users to access your source code. Remember that security should also involve other best practices, such as secure coding and vulnerability assessments.&lt;/p>
+&lt;h2 id="risk-mitigation">Risk mitigation&lt;/h2>
+&lt;p>Automation allows concentration on pivotal aspects of your companies development, while open source diminishes expenses, mitigates risks, and wards off vendor dependency.&lt;/p></description></item><item><title>The ultimate Open Source resume builder</title><link>https://kelvin.id/post/the-ultimate-open-source-resume-builder/</link><pubDate>Sat, 19 Nov 2022 14:33:00 +0000</pubDate><guid>https://kelvin.id/post/the-ultimate-open-source-resume-builder/</guid><description>&lt;img src="https://kelvin.id/post/the-ultimate-open-source-resume-builder/emma_brener-cv_v1_rxresume_kelvin-wuite_kelvin.id.png" alt="Featured image of post The ultimate Open Source resume builder" />&lt;p>Reactive Resume is a free and open source resume builder which was created to simplify the tedious tasks of generating, updating, and publishing your resume as simple as possible. With this software, you can make several resumes, send them to employers or friends via a special URL, and print them as PDFs all for free without having to worry about your data being compromised or sold to any commercial entity via monitoring or analytical tools.&lt;/p>
+&lt;p>You have complete control over everything that goes into your curriculum vitae, including the layout, colors, templates, and placement of the various parts. Want a cv in dark mode? Three values simply need to be changed, and you&amp;rsquo;re done. You do not need to wait to observe the changes. Everything you submit and alter appears instantly and is updated in real time on your cv.&lt;/p>
+&lt;h2 id="features">Features&lt;/h2>
+&lt;ul>
+&lt;li>Free forever&lt;/li>
+&lt;li>Zero advertisements&lt;/li>
+&lt;li>No User Tracking or any form of analytics&lt;/li>
+&lt;li>Sync your data across devices&lt;/li>
+&lt;li>Accessible in 40 languages (as of writing)&lt;/li>
+&lt;li>Import data from &lt;a class="link" href="https://www.linkedin.com/mypreferences/d/download-my-data" target="_blank" rel="noopener"
+>LinkedIn&lt;/a>, &lt;a class="link" href="https://jsonresume.org/" target="_blank" rel="noopener"
+>JSON Resume&lt;/a>&lt;/li>
+&lt;li>Manage multiple resumes with one account&lt;/li>
+&lt;li>Open Source (with large community support)
+&lt;ul>
+&lt;li>The source code is hosted on &lt;a class="link" href="https://github.com/AmruthPillai/Reactive-Resume" target="_blank" rel="noopener"
+>Github&lt;/a>&lt;/li>
+&lt;li>For questions check the &lt;a class="link" href="https://github.com/AmruthPillai/Reactive-Resume/issues" target="_blank" rel="noopener"
+>Issues&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Send your resume to others with a unique sharable link&lt;/li>
+&lt;li>Pick any &lt;a class="link" href="https://fonts.google.com/featured" target="_blank" rel="noopener"
+>font from Google&lt;/a> to use on your resume&lt;/li>
+&lt;li>Choose from 6 vibrant templates and more coming soon&lt;/li>
+&lt;li>Export your resume to JSON or PDF format with just one click&lt;/li>
+&lt;li>Create an account using your email, or just Sign in with &lt;a class="link" href="https://www.npmjs.com/package/@react-oauth/google" target="_blank" rel="noopener"
+>Google&lt;/a>&lt;/li>
+&lt;li>Mix and match colors to any degree, even a dark mode resume?&lt;/li>
+&lt;li>Add sections, add pages and change layouts the way you want to&lt;/li>
+&lt;li>Tailor-made Backend and Database, isolated from Google, Amazon etc.&lt;/li>
+&lt;/ul>
+&lt;h2 id="the-creator">The creator&lt;/h2>
+&lt;p>&lt;a class="link" href="https://www.amruthpillai.com/" target="_blank" rel="noopener"
+>Amruth Pillai&lt;/a> created and published the service at &lt;a class="link" href="https://rxresu.me/" target="_blank" rel="noopener"
+>rxresu.me&lt;/a>&lt;/p>
+&lt;p>You can support or sponsor Amruth via &lt;a class="link" href="https://github.com/sponsors/AmruthPillai" target="_blank" rel="noopener"
+>Github&lt;/a> or &lt;a class="link" href="https://paypal.me/RajaRajanA" target="_blank" rel="noopener"
+>PayPal&lt;/a>.&lt;/p>
+&lt;p>Are you more of a linguist than sponsor by creditcard, you can put your vocabulary and grammar skills to good use and help &lt;a class="link" href="https://translate.rxresu.me/" target="_blank" rel="noopener"
+>translate this tool&lt;/a> into more languages.&lt;/p>
+&lt;h2 id="infrastructure">Infrastructure&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://nextjs.org/" target="_blank" rel="noopener"
+>Next.js&lt;/a>, frontend&lt;/li>
+&lt;li>&lt;a class="link" href="https://nestjs.com/" target="_blank" rel="noopener"
+>NestJS&lt;/a>, backend&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.postgresql.org/" target="_blank" rel="noopener"
+>PostgreSQL&lt;/a>, database&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.digitalocean.com/" target="_blank" rel="noopener"
+>DigitalOcean&lt;/a>, infrastructure provider&lt;/li>
+&lt;li>&lt;a class="link" href="https://translate.rxresu.me/" target="_blank" rel="noopener"
+>Crowdin&lt;/a>, translation management platform&lt;/li>
+&lt;/ul>
+&lt;h2 id="self-hosted-solution">Self hosted solution&lt;/h2>
+&lt;p>A basic &lt;a class="link" href="https://github.com/AmruthPillai/Reactive-Resume/blob/main/docker-compose.yml" target="_blank" rel="noopener"
+>docker-compose&lt;/a> file is available for hosting your own solution.&lt;/p>
+&lt;p>I will update the docker-compose file with my own version for releasing this on a Hetzner server with environment management and simple Makefile orchestration including automated SSL.&lt;/p></description></item></channel></rss>

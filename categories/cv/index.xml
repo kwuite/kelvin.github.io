@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CV on Kelvin.iD</title><link>https://kelvin.id/categories/cv/</link><description>Recent content in CV on Kelvin.iD</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 19 Nov 2022 14:33:00 +0000</lastBuildDate><atom:link href="https://kelvin.id/categories/cv/index.xml" rel="self" type="application/rss+xml"/><item><title>The ultimate Open Source resume builder</title><link>https://kelvin.id/post/the-ultimate-open-source-resume-builder/</link><pubDate>Sat, 19 Nov 2022 14:33:00 +0000</pubDate><guid>https://kelvin.id/post/the-ultimate-open-source-resume-builder/</guid><description>&lt;img src="https://kelvin.id/post/the-ultimate-open-source-resume-builder/emma_brener-cv_v1_rxresume_kelvin-wuite_kelvin.id.png" alt="Featured image of post The ultimate Open Source resume builder" />&lt;p>Reactive Resume is a free and open source resume builder which was created to simplify the tedious tasks of generating, updating, and publishing your resume as simple as possible. With this software, you can make several resumes, send them to employers or friends via a special URL, and print them as PDFs all for free without having to worry about your data being compromised or sold to any commercial entity via monitoring or analytical tools.&lt;/p>
+&lt;p>You have complete control over everything that goes into your curriculum vitae, including the layout, colors, templates, and placement of the various parts. Want a cv in dark mode? Three values simply need to be changed, and you&amp;rsquo;re done. You do not need to wait to observe the changes. Everything you submit and alter appears instantly and is updated in real time on your cv.&lt;/p>
+&lt;h2 id="features">Features&lt;/h2>
+&lt;ul>
+&lt;li>Free forever&lt;/li>
+&lt;li>Zero advertisements&lt;/li>
+&lt;li>No User Tracking or any form of analytics&lt;/li>
+&lt;li>Sync your data across devices&lt;/li>
+&lt;li>Accessible in 40 languages (as of writing)&lt;/li>
+&lt;li>Import data from &lt;a class="link" href="https://www.linkedin.com/mypreferences/d/download-my-data" target="_blank" rel="noopener"
+>LinkedIn&lt;/a>, &lt;a class="link" href="https://jsonresume.org/" target="_blank" rel="noopener"
+>JSON Resume&lt;/a>&lt;/li>
+&lt;li>Manage multiple resumes with one account&lt;/li>
+&lt;li>Open Source (with large community support)
+&lt;ul>
+&lt;li>The source code is hosted on &lt;a class="link" href="https://github.com/AmruthPillai/Reactive-Resume" target="_blank" rel="noopener"
+>Github&lt;/a>&lt;/li>
+&lt;li>For questions check the &lt;a class="link" href="https://github.com/AmruthPillai/Reactive-Resume/issues" target="_blank" rel="noopener"
+>Issues&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Send your resume to others with a unique sharable link&lt;/li>
+&lt;li>Pick any &lt;a class="link" href="https://fonts.google.com/featured" target="_blank" rel="noopener"
+>font from Google&lt;/a> to use on your resume&lt;/li>
+&lt;li>Choose from 6 vibrant templates and more coming soon&lt;/li>
+&lt;li>Export your resume to JSON or PDF format with just one click&lt;/li>
+&lt;li>Create an account using your email, or just Sign in with &lt;a class="link" href="https://www.npmjs.com/package/@react-oauth/google" target="_blank" rel="noopener"
+>Google&lt;/a>&lt;/li>
+&lt;li>Mix and match colors to any degree, even a dark mode resume?&lt;/li>
+&lt;li>Add sections, add pages and change layouts the way you want to&lt;/li>
+&lt;li>Tailor-made Backend and Database, isolated from Google, Amazon etc.&lt;/li>
+&lt;/ul>
+&lt;h2 id="the-creator">The creator&lt;/h2>
+&lt;p>&lt;a class="link" href="https://www.amruthpillai.com/" target="_blank" rel="noopener"
+>Amruth Pillai&lt;/a> created and published the service at &lt;a class="link" href="https://rxresu.me/" target="_blank" rel="noopener"
+>rxresu.me&lt;/a>&lt;/p>
+&lt;p>You can support or sponsor Amruth via &lt;a class="link" href="https://github.com/sponsors/AmruthPillai" target="_blank" rel="noopener"
+>Github&lt;/a> or &lt;a class="link" href="https://paypal.me/RajaRajanA" target="_blank" rel="noopener"
+>PayPal&lt;/a>.&lt;/p>
+&lt;p>Are you more of a linguist than sponsor by creditcard, you can put your vocabulary and grammar skills to good use and help &lt;a class="link" href="https://translate.rxresu.me/" target="_blank" rel="noopener"
+>translate this tool&lt;/a> into more languages.&lt;/p>
+&lt;h2 id="infrastructure">Infrastructure&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://nextjs.org/" target="_blank" rel="noopener"
+>Next.js&lt;/a>, frontend&lt;/li>
+&lt;li>&lt;a class="link" href="https://nestjs.com/" target="_blank" rel="noopener"
+>NestJS&lt;/a>, backend&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.postgresql.org/" target="_blank" rel="noopener"
+>PostgreSQL&lt;/a>, database&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.digitalocean.com/" target="_blank" rel="noopener"
+>DigitalOcean&lt;/a>, infrastructure provider&lt;/li>
+&lt;li>&lt;a class="link" href="https://translate.rxresu.me/" target="_blank" rel="noopener"
+>Crowdin&lt;/a>, translation management platform&lt;/li>
+&lt;/ul>
+&lt;h2 id="self-hosted-solution">Self hosted solution&lt;/h2>
+&lt;p>A basic &lt;a class="link" href="https://github.com/AmruthPillai/Reactive-Resume/blob/main/docker-compose.yml" target="_blank" rel="noopener"
+>docker-compose&lt;/a> file is available for hosting your own solution.&lt;/p>
+&lt;p>I will update the docker-compose file with my own version for releasing this on a Hetzner server with environment management and simple Makefile orchestration including automated SSL.&lt;/p></description></item></channel></rss>
